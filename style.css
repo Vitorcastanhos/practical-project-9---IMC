@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	background-color: #040924;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+.card {
+    padding: 4.8rem 6.4rem 6.4rem;
+    background-color: aliceblue;
+    max-width: 43rem;
+    margin-inline: auto;
+}
