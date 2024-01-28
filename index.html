@@ -3,13 +3,43 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
 		<script src="./main.js" defer></script>
 		<title>IMC Calculator</title>
 	</head>
 	<body>
 		<div class="container">
-			<div class="card">conteudo qualquer</div>
+			<div class="card">
+				<form action="">
+					<h1 class="title">IMC Estimate</h1>
+					<div class="input-wrapper">
+						<label for="weight">Weight (Kg)</label>
+						<input id="weight" type="text" placeholder="60" />
+					</div>
+					<div class="input-wrapper">
+						<label for="height">Height (Cm)</label>
+						<input id="h1" type="text" placeholder="165" />
+					</div>
+					<button type="submit">
+						Calculate IMC
+						<img src="./assests/icon.svg" alt="icon arrow" />
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="modal-wrapper">
+			<div class="modal card">
+				<h2 class="title">
+					<button class="close">
+						<img src="./assests/icon-close.svg" alt="icon close">
+					</button>
+					Your IMC is
+				</h2>
+			</div>
 		</div>
 	</body>
 </html>
