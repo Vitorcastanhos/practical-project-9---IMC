@@ -11,6 +11,10 @@
 		<title>IMC Calculator</title>
 	</head>
 	<body>
+		<div class="error open">
+			Only numbers allowed.
+		</div>
+
 		<div class="container">
 			<div class="card">
 				<form action="">
@@ -21,7 +25,7 @@
 					</div>
 					<div class="input-wrapper">
 						<label for="height">Height (Cm)</label>
-						<input id="h1" type="text" placeholder="165" />
+						<input id="height" type="text" placeholder="165" />
 					</div>
 					<button type="submit">
 						Calculate IMC
@@ -35,7 +39,7 @@
 			<div class="modal card">
 				<h2 class="title">
 					<button class="close">
-						<img src="./assests/icon-close.svg" alt="icon close">
+						<img src="./assests/icon-close.svg" alt="icon close" />
 					</button>
 					Your IMC is
 				</h2>
