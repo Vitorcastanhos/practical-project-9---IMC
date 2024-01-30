@@ -7,18 +7,18 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
-		<script src="./main.js" defer></script>
-		<title>IMC Calculator</title>
+		<script src="./js/main.js" defer></script>
+		<title>BMI Calculator</title>
 	</head>
 	<body>
-		<div class="error open">
+		<div class="error">
 			Only numbers allowed.
 		</div>
 
 		<div class="container">
 			<div class="card">
 				<form action="">
-					<h1 class="title">IMC Estimate</h1>
+					<h1 class="title">BMI Estimate</h1>
 					<div class="input-wrapper">
 						<label for="weight">Weight (Kg)</label>
 						<input id="weight" type="text" placeholder="60" />
@@ -28,7 +28,7 @@
 						<input id="height" type="text" placeholder="165" />
 					</div>
 					<button type="submit">
-						Calculate IMC
+						Calculate BMI
 						<img src="./assests/icon.svg" alt="icon arrow" />
 					</button>
 				</form>
